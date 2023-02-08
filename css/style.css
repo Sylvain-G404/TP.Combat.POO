@@ -1,0 +1,66 @@
+html,
+body {
+    margin: auto;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+.hTitre,
+.connection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.combat {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 10px;
+}
+
+.playeur {
+    border: 1px solid red;
+}
+
+.playeur .stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playeur .jauge {
+    background-color: black;
+
+    width: 80%;
+    height: 20px;
+
+    margin: 10px;
+}
+
+.playeur .pointVie {
+    background-color: red;
+
+    width: 30%;
+    height: 20px;
+}
+
+
+.playeur.Gauche {
+    background-color: aqua;
+}
+
+.playeur.Droite {
+    border: 2px solid black;
+    background-color: chartreuse;
+}
+
+.actionPossible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
